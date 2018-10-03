@@ -31,6 +31,9 @@
     <rule ref="Generic.Functions.FunctionCallArgumentSpacing"/>
     <rule ref="Generic.ControlStructures.InlineControlStructure"/>
     <rule ref="Generic.PHP.DeprecatedFunctions"/>
+    <rule ref="Generic.PHP.CharacterBeforePHPOpeningTag">
+        <exclude-pattern>*.phtml</exclude-pattern>
+    </rule>
 
     <rule ref="Squiz.Functions.GlobalFunction"/>
     <rule ref="Squiz.Scope.MethodScope"/>
@@ -41,6 +44,9 @@
         <property name="maxPercentage" value="50" />
       </properties>
     </rule>
+    <rule ref="Squiz.PHP.Eval"/>
+    <rule ref="Squiz.PHP.DiscouragedFunctions"/>
+    <rule ref="Squiz.Scope.MethodScope"/>
 
     <rule ref="PEAR.NamingConventions.ValidClassName"/>
     <rule ref="PEAR.Classes.ClassDeclaration"/>
