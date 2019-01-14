@@ -53,4 +53,6 @@
     <rule ref="PEAR.Functions.FunctionDeclaration"/>
     <rule ref="PEAR.WhiteSpace.ScopeClosingBrace"/>
     <rule ref="PEAR.ControlStructures.ControlSignature"/>
+
+    <exclude name="Generic.CodeAnalysis.UselessOverridingMethod"/>
 </ruleset>
